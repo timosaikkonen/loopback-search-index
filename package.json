@@ -1,0 +1,18 @@
+{
+  "name": "loopback-search-index",
+  "version": "0.0.1",
+  "description": "search-index component for loopback",
+  "main": "index.js",
+  "repository": "git://github.com/timosaikkonen/loopback-search-index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timo Saikkonen",
+  "license": "MIT",
+  "dependencies": {
+    "fstream": "^1.0.2",
+    "node-uuid": "^1.4.1",
+    "rimraf": "^2.2.8",
+    "search-index": "timosaikkonen/search-index"
+  }
+}
