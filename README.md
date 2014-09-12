@@ -63,6 +63,7 @@ Search.search(query, function (err, results) {
   
   console.log('search returned:', results);
 })
+```
 
 ## REST APIs
 
