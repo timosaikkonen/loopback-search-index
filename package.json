@@ -13,6 +13,6 @@
     "fstream": "^1.0.2",
     "node-uuid": "^1.4.1",
     "rimraf": "^2.2.8",
-    "search-index": "timosaikkonen/search-index"
+    "search-index": "^0.4.13"
   }
 }
