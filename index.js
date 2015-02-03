@@ -31,6 +31,21 @@ exports.createSearchModel = function (options) {
     }
   });
 
+  searchModel.remoteMethod('match', {
+    accepts: [
+      {
+        arg: 'keyword',
+        type: 'string',
+        required: true
+      }
+    ],
+    returns: { root: true },
+    http: {
+      verb: 'GET',
+      path: '/match/:keyword'
+    }
+  });
+
   searchModel.remoteMethod('get', {
     accepts: [
       {
