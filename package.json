@@ -1,6 +1,6 @@
 {
   "name": "loopback-search-index",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "search-index component for loopback",
   "main": "index.js",
   "repository": "git://github.com/timosaikkonen/loopback-search-index",
