@@ -51,7 +51,7 @@ var Search = loopback.getModel('Search');
 
 var query = {
   query: {
-    '*': 'foo'
+    '*': ['foo']
   },
   filters: {
     'type': ['baz']
